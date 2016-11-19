@@ -1,0 +1,32 @@
+{
+    "name": "chec/commerce.php",
+    "version": "1.0.0",
+    "description": "PHP client library for Commerce.js by Chec",
+    "keywords": [
+      "chec",
+      "commerce.js",
+      "ecommerce",
+      "shopping cart",
+      "api",
+      "sdk"
+    ],
+    "homepage": "https://commercejs.com/",
+    "license": "MIT",
+    "authors": [
+      {
+          "name": "Chec Commerce, Inc.",
+          "homepage": "https://github.com/chec"
+      }
+    ],
+    "require": {
+      "php": ">=5.4.0",
+      "ext-curl": "*",
+      "ext-json": "*",
+      "ext-mbstring": "*",
+      "mashape/unirest-php": "3.0.4",
+      "apimatic/jsonmapper": "~1.0.0"
+    },
+    "autoload": {
+        "psr-4": { "Commerce\\" : "lib/" }
+    }
+}
