@@ -1,5 +1,5 @@
 {
-    "name": "chec/commerce.php",
+    "name": "chec/commerce",
     "version": "1.0.0",
     "description": "PHP client library for Commerce.js by Chec",
     "keywords": [
