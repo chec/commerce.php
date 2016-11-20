@@ -1,4 +1,5 @@
- # Commerce.php by Chec
+# Commerce.php by Chec
+
 PHP client library for Commerce.js by Chec
 
 You can learn more about Commerce.js & Chec at https://commercejs.com.
