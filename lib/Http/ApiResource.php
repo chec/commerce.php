@@ -2,17 +2,17 @@
 
 namespace Commerce\Http;
 
-use Chec\Http\HttpCallBack;
+use Commerce\Http\HttpCallBack;
 use \apimatic\jsonmapper\JsonMapper;
-use Chec\ApiException;
-use Chec\ApiHelper;
-use Chec\Exceptions;
-use Chec\Http\HttpRequest;
-use Chec\Http\HttpResponse;
-use Chec\Http\HttpMethod;
-use Chec\Http\HttpContext;
+use Commerce\ApiException;
+use Commerce\ApiHelper;
+use Commerce\Exceptions;
+use Commerce\Http\HttpRequest;
+use Commerce\Http\HttpResponse;
+use Commerce\Http\HttpMethod;
+use Commerce\Http\HttpContext;
 use Unirest\Request;
-use Chec\Auth;
+use Commerce\Auth;
 /**
  * Class ApiResource
  *
@@ -47,9 +47,9 @@ class ApiResource
 
 
     $headers = array (
-    'user-agent'    => \Chec\Auth::$userAgent,
+    'user-agent'    => Auth::$userAgent,
     'Accept'        => 'application/json',
-    'X-Authorization' => \Chec\Auth::$apiKey
+    'X-Authorization' => Auth::$apiKey
     );
 
     switch($type){
