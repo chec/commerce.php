@@ -30,6 +30,18 @@ class Service extends Http\ApiResource
       return Http\ApiResource::Request('GET', $_queryUrl);
     }
     /**
+     * Commerce\Service::localeListShippingSubdivisions();
+     */
+    public static function localeListShippingSubdivisions($checkoutTokenId,$countryCode, $query_parameters = [])
+    {
+      $_queryBuilder = Auth::$apiBase.'/services/locale/{checkout_token_id}/countries/{country_code}/subdivisions';
+      $path_params = ['checkout_token_id' => $checkoutTokenId,'country_code' => $countryCode];
+      Http\ApiHelper::appendUrlWithTemplateParameters($_queryBuilder, $path_params);
+      $_queryUrl = ApiHelper::cleanUrl($_queryBuilder);
+
+      return Http\ApiResource::Request('GET', $_queryUrl);
+    }
+    /**
      * Commerce\Service::localeListSubdivisions();
      */
     public static function localeListSubdivisions($countryCode, $query_parameters = [])
