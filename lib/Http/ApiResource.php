@@ -4,9 +4,9 @@ namespace Commerce\Http;
 
 use Commerce\Http\HttpCallBack;
 use \apimatic\jsonmapper\JsonMapper;
-use Commerce\ApiException;
 use Commerce\ApiHelper;
 use Commerce\Exceptions;
+use Commerce\Http\ApiException;
 use Commerce\Http\HttpRequest;
 use Commerce\Http\HttpResponse;
 use Commerce\Http\HttpMethod;
