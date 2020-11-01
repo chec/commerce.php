@@ -1,0 +1,21 @@
+{
+    "id": "gft_1ypbroE658n4ea",
+    "code": "ABC123 9JS3 M2ND A12D",
+    "balance": {
+        "raw": 50,
+        "formatted": "50.00",
+        "formatted_with_symbol": "$50.00",
+        "formatted_with_code": "50.00 USD"
+    },
+    "initial_value": {
+        "raw": 50,
+        "formatted": "50.00",
+        "formatted_with_symbol": "$50.00",
+        "formatted_with_code": "50.00 USD"
+    },
+    "note": "Merry Christmas",
+    "created": 1556800200,
+    "last_updated": 1556801100
+}
+
+encrypt the coupon code some one haced
